@@ -1,0 +1,7 @@
+services:
+  skyrim-server:
+    image: tiltedphoques/st-reborn-server:latest
+    ports:
+      - "10578:10578/udp"
+    volumes:
+      - "./config:/home/server/config/"
